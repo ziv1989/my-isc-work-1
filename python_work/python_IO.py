@@ -12,6 +12,7 @@ with open('/home/user01/my-isc-work/python_work/example_data/weather.csv', 'r') 
 
 print rain
 
+#Print out rain values with newline character
 with open('myrain.txt','w') as writer:
     for i in rain:
         writer.write(str(i)+'\n')
